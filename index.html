@@ -32,6 +32,28 @@
       <p>ستار جيم هو مركز تدريب رجالي متكامل مجهّز بأحدث المعدات الرياضية.</p>
       <p>هدفنا بناء القوة، وتحسين اللياقة البدنية، وتعزيز الثقة بالنفس.</p>
     </section>
+
+    <section id="form" class="form-section container">
+      <h3>تسجيل عضوية</h3>
+      <form onsubmit="showMessage(event)">
+        <label>الاسم الكامل</label>
+        <input type="text" required>
+        <label>العمر</label>
+        <input type="number" required>
+        <label>رقم الهاتف</label>
+        <input type="tel" required>
+        <label>البريد الإلكتروني</label>
+        <input type="email">
+        <label>الهدف من الاشتراك</label>
+        <select>
+          <option>لياقة عامة</option>
+          <option>زيادة عضلات</option>
+          <option>تخسيس</option>
+        </select>
+        <button type="submit" class="btn">تسجيل</button>
+      </form>
+      <p id="msg"></p>
+    </section>
   </main>
 
   <footer class="footer">
